@@ -2,7 +2,7 @@
 	background: #1a1b26;
 	color: white;
 	--main-color: #7aa2f7;
-	--accent-color: #f7768e
+	--accent-color: #f7768e;
 }
 
 h1,
@@ -11,9 +11,8 @@ h2 {
 	text-align: center
 }
 
-
 a {
-	color: var(--accent-color)
+	color: var(--accent-color);
 }
 
 nav {
@@ -30,3 +29,11 @@ section {
 
 	text-align: center;
 }
+
+ul {
+	list-style: none;
+	display: inline-block;
+	text-align: left;
+}
+
+li {}

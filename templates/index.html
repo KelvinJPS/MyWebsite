@@ -9,14 +9,14 @@
   along the way
 </p>
 <img> 
- 
 <img>
 <h2>Latest posts</h2>
-<ul>
+<ul
   {% for post in blog_section.pages %}
     <li>
-    <a href="{{ post.permalink }}">{{ post.title }}</a></li>
-    {% endfor %}
+    <a href="{{ post.permalink }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
 </ul>
 <p>Click <a href="{{ get_url(path='@/blog/_index.md') }}">here</a> to see  all of  my posts.</p>
 {% endblock content %}
