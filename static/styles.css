@@ -3,10 +3,14 @@
 	color: white;
 	--main-color: #7aa2f7;
 	--accent-color: #f7768e;
+	font-size: 1em;
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4,
+h5 {
 	color: var(--main-color);
 	text-align: center
 }
@@ -16,24 +20,20 @@ a {
 }
 
 nav {
-	color: white;
 	text-align: center;
 	align-items: center;
-}
-
-p {
-	color: white
 }
 
 section {
 
 	text-align: center;
+
 }
 
 ul {
 	list-style: none;
 	display: inline-block;
 	text-align: left;
+	align-self: auto;
+	padding: 0;
 }
-
-li {}
