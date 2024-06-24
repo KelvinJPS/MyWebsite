@@ -1,6 +1,5 @@
 {% extends "base.html" %} {% block content %}
 {% set blog_section = get_section(path="blog/_index.md") %}
-
 <h1 class="title">
   Kelvin's personal website
 </h1>
@@ -8,10 +7,7 @@
    Hi, I'm Kelvin here I will share my projects, and the things I learn
   along the way
 </p>
-<img> 
-<img>
 <h2>Latest posts</h2>
-<main>
 <article>
 <ul
   {% for post in blog_section.pages %}
@@ -21,6 +17,5 @@
   {% endfor %}
 </ul>
 <article>
-<main/>
 <p>Click <a href="{{ get_url(path='@/blog/_index.md') }}">here</a> to see  all of  my posts.</p>
 {% endblock content %}
