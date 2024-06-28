@@ -8,7 +8,6 @@
   along the way
 </p>
 <h2>Latest posts</h2>
-<article>
 <ul
   {% for post in blog_section.pages %}
     <li>
@@ -16,6 +15,5 @@
     </li>
   {% endfor %}
 </ul>
-<article>
 <p>Click <a href="{{ get_url(path='@/blog/_index.md') }}">here</a> to see  all of  my posts.</p>
 {% endblock content %}
