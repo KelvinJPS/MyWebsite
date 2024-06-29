@@ -1,5 +1,6 @@
 ## To Do
 
+- fix readability
 
 ## Doing
 
