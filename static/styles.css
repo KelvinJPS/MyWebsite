@@ -107,4 +107,5 @@ figure {
 
 a {
 	color: var(--accent-color);
+	padding: 0.2rem;
 }
