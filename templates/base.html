@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>MyBlog</title>
@@ -12,17 +13,26 @@
 <meta name="keywords" content="programming, language learning, learning,
       personal development, productivity">
 <meta name="author" content="Kelvin Joel Pina Sledzinski">
+ <!-- rss feed -->
+{% block rss %}
+<link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
+{% endblock %}
+
 <header>
     <nav class="site-nav">
       <a href="/">Home</a>
       <a href="/blog">Blog</a>
   </header>
 <body>
-    <main>
+  <main>
       {% block content %} {% endblock %}
-    <main/>
+  <main/>
+        <footer>
+     <a href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
+          <svg role="img" width="40" height="40" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" ><title>RSS Feed</title><path fill='currentColor' d="M3 3C12.9411 3 21 11.0589 21 21H18C18 12.7157 11.2843 6 3 6V3ZM3 10C9.07513 10 14 14.9249 14 21H11C11 16.5817 7.41828 13 3 13V10ZM3 17C5.20914 17 7 18.7909 7 21H3V17Z"></path>
+          </svg>
+        </a>
+        </footer>
 </body>
-
 </html>
-
 

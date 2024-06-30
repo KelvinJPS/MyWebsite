@@ -1,6 +1,6 @@
 ## To Do
 
-- fix readability
+- add rss feed
 
 ## Doing
 
@@ -9,3 +9,4 @@
 
 - fix link items positions
     > the items  are not equally align
+- fix readability
