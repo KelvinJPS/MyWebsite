@@ -1,0 +1,5 @@
+#/usr/bin/bash
+
+cd ~/Projects/MyWebsite/ && zola build
+rsync -rtvzP -e 'ssh -p 51626' ~/Projects/MyWebsite/public/ root@51.77.213.215:/var/www/kelvinjps.xyz
+
