@@ -11,10 +11,10 @@ body {
 	color: var(--text-color);
 	background: var(--background-color);
 	margin: auto;
-	max-width: 45rem;
+	max-width: 50rem;
 	min-height: 100%;
 	overflow-x: hidden;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	padding: 0.5rem;
 }
 
@@ -113,9 +113,18 @@ footer {
 	max-width: 65rem;
 	padding: 4rem;
 	padding-top: 1rem;
-<<<<<<< HEAD
-=======
-	text-align: center;
->>>>>>> 2ba66b2 (update and deploy script)
 	margin: auto;
+}
+
+pre {
+	max-width: 90vw;
+	margin: 2em auto;
+	padding: 1em;
+	overflow-x: auto;
+	background-color: #f4f4f4;
+	border-radius: 4px;
+}
+
+img {
+	max-width: 100%;
 }
