@@ -8,15 +8,16 @@ default_language = "en"
 build_search_index = false
 minify_html = true
 
-generate_feeds = true
+generate_feed = true
 feed_filename = "rss.xml"
 
 [feed]
-title = "Your Site Title"
-description = "Your site description"
+title = "Kelvin's Blog"
+description = "Personal blog of Kelvin"
 limit = 20
-author = "Your Name"
+author = "Kelvin"
 default_language = "en"
+feed_url = "https://kelvinjps.xyz/rss.xml"
 
 [markdown]
 # Whether to do syntax highlighting
