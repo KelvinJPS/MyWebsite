@@ -9,7 +9,14 @@ build_search_index = false
 minify_html = true
 
 generate_feeds = true
+feed_filename = "rss.xml"
 
+[feed]
+title = "Your Site Title"
+description = "Your site description"
+limit = 20
+author = "Your Name"
+default_language = "en"
 
 [markdown]
 # Whether to do syntax highlighting
