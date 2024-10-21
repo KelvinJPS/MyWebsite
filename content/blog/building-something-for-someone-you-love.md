@@ -1,46 +1,57 @@
 +++
 title= "Building something for someone you love"
-date= 2024-10-18
+date= 2024-10-21
 draft= false 
 +++
 
-![feels good pepe the frog](/feels-good-man.avif)
-
 I just build a simple program for automating the small business of my mom,
-it is just a telegram bot, that updates the following image.
+it is just a telegram bot, that updates the following image, which is
+a SVG file.
 
-![screenshot of image before running program](/content/images/2024-10-18_17-49.png)
+### Before running the program
 
-{{ img(src="/content/images/2024-10-18_17-49.png", width=400, height=400, op="fit", caption="feels good pepe the frog") }}
+![image before running the program](/input.svg)
 
-Based on the fee inserted, it generates the example values in the 2 currencies.
+### after running the program
+
+![image after running the program](/output.jpg)
+
+Based on the fee inserted, it generates the example values in the
+2 currencies.
 
 This used to take 10-20 minutes each day and now it is done automatically
 by the script in less than a second.
 
 <video width="420" height="420" controls>
   <source src="/telegram.mp4" type="video/mp4">
-  Your browser does not support the video tag.
 </video>
 
-Being able to see the impact of your code, in someone a loved one, it hits
+Being able to see the impact of your code, in loved one, hits
 different than writing the most impressive piece of code, but with
 faceless users, that you will never meet.
 
+When I'm building these kind of programs, the only thing, I think, is
+being able to solve the program of that family-member, friend.
+
+The code just uses xpath expressions to find the id of the element I want to change.
+(xpath expressions)[https://en.wikipedia.org/wiki/XPath]
+
+And as a svg it's just text a file, editing it programmatically, it is easy.
+
 The code for generating the image:
 
-```python
+`````python
 
 import xml.etree.ElementTree as ET
 
 svg_file_path = "input.svg"
 # Parse the SVG file
-tree = ET.parse(svg_file_path)
+tree = ET.parse
 root = tree.getroot()
 
 
 def find_element(id):
-    xpath_expression = f".//*[@id='{id}']"
+    xpath_expression = f".//*[@id='']"
     element = root.find(xpath_expression)
     if element is not None:
         return element
@@ -68,39 +79,37 @@ def generate_img(new_fee: str):
         if bs_element is not None:
             bs_element.text = str(results[i])
 
-    tree.write("output.svg")
-```
+    tree.write("output.svg") ``` The code for the telegram bot:
 
-the code for the telegram bot:
 
-```python
-#!/usr/bin/env python3 import os import telebot
-from telebot.types import Message
-import fee_img
-BOT_TOKEN = os.environ.get('BOT_TOKEN')
-
-bot = telebot.TeleBot(BOT_TOKEN)
-
-@bot.message_handler(commands=['start','hola','tasa'])
-def send_welcome(message):
-    bot.reply_to(message, "escribe la tasa, por ejemplo 106.5")
+````python
+#!/usr/bin/env python3 import os import telebot from telebot.types import
+Message import fee_img BOT_TOKEN = os.environ.get('BOT_TOKEN') bot
+= telebot.TeleBot(BOT_TOKEN)
+@bot.message_handler(commands=['start','hola','tasa']) def
+    send_welcome(message): bot.reply_to(message, "escribe la tasa, por
+        ejemplo 106.5")
 
 @bot.message_handler(func=lambda msg: True)
 def send_message(message):
-    try:
-       user_new_fee = message.text
-    except ValueError:
-       bot.reply_to(message, "tasa no valida, escribe la tasa en numero separando decimales con .")
-    fee_img.generate_img(user_new_fee)
-    os.system("convert output.svg output.png")
-    bot.send_photo(photo=open("output.png","rb"),chat_id = message.chat.id)
+try:
+user_new_fee = message.text
+except ValueError:
+bot.reply_to(message, "tasa no valida, escribe la tasa en numero separando decimales con .")
+fee_img.generate_img(user_new_fee)
+os.system("convert output.svg output.png")
+bot.send_photo(photo=open("output.png","rb"),chat_id = message.chat.id)
 
-bot.infinity_polling()
-```
+bot.infinity_polling()```
+
+`````
+
+Then it's hosted in my personal VPS along with other simple programs.
 
 Like this I have written multiple programs for close-friends, or family
 members, they solve issues like saving them time or myself(doing these
 things for them), for things that are manually tedious, and a simple
-program/script would solve the problem. The UI most of the time it's just
-a telegram bot, or just an email sent, sometimes they are one-time
-scripts.
+program would do the job, the "UI" for these kinds of programs that I do
+for them, are just a telegram bot, an email sent, sometimes they are
+a one-time program/script and maybe I might have to build a website
+when needed.
