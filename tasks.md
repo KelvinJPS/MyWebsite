@@ -1,6 +1,5 @@
 ## To Do
 
-- add rss feed
 
 ## Doing
 
@@ -10,3 +9,6 @@
 - fix link items positions
     > the items  are not equally align
 - fix readability
+- add rss feed
+- fix code alignment
+- fix images aligment
