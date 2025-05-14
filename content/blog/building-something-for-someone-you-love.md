@@ -1,5 +1,5 @@
 +++
-title= "Building something for someone you love"
+title= "Simple small scripts for family and friends"
 date= 2024-10-21
 draft= false 
 +++
