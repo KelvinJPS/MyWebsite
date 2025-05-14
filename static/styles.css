@@ -110,10 +110,8 @@ a {
 
 
 footer {
-	max-width: 65rem;
-	padding: 4rem;
-	padding-top: 1rem;
-	margin: auto;
+	max-width: 15%;
+	margin: 1rem auto;
 }
 
 pre {
