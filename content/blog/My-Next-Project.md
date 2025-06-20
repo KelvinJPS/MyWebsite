@@ -1,4 +1,1 @@
-+++
-title="Choosing next project"
-draft= true
-+++
++++ title="Choosing next project" draft=true +++
