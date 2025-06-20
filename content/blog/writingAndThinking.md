@@ -1,3 +1,5 @@
++++title="Writing is a way of thinking" draft= true+++
+
 # Writing is a way of thinking
 
 ## Language learning
