@@ -26,7 +26,7 @@ by the script in less than a second.
   <source src="/telegram.mp4" type="video/mp4">
 </video>
 
-Being able to see the impact of your code, in loved one, hits
+Being able to see the impact of your code, in a loved one, hits
 different than writing the most impressive piece of code, but with
 faceless users, that you will never meet.
 

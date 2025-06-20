@@ -1,3 +1,4 @@
+
 # The URL the site will be built for
 base_url = "https://kelvinjps.xyz"
 # Whether to automatically compile all Sass files in the sass directory
@@ -8,16 +9,8 @@ default_language = "en"
 build_search_index = false
 minify_html = true
 
-generate_feed = true
-feed_filename = "rss.xml"
-
-[feed]
-title = "Kelvin's Blog"
-description = "Personal blog of Kelvin"
-limit = 20
-author = "Kelvin"
-default_language = "en"
-feed_url = "https://kelvinjps.xyz/rss.xml"
+generate_feeds = true
+feed_filenames = ["rss.xml"]
 
 [markdown]
 # Whether to do syntax highlighting
