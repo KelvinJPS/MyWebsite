@@ -1,11 +1,18 @@
-+++
+---
+title: Making scripts for family and friends
+Date: 2025-08-22
+draft: false
+share: true
+---
+
 title= "Simple small scripts for family and friends"
 date= 2024-10-21
 draft= false 
-+++
 
-I just build a simple program for automating the small business of my mom,
-it is just a telegram bot, that updates the following image, which is
+
+
+I just built a simple program for automating my mom's small business.,
+It is just a telegram bot that updates the following image, which is
 a SVG file.
 
 ### Before running the program
@@ -19,7 +26,7 @@ a SVG file.
 Based on the fee inserted, it generates the example values in the
 2 currencies.
 
-This used to take 10-20 minutes each day and now it is done automatically
+This used to take 10-20 minutes each day, and now it is done automatically
 by the script in less than a second.
 
 <video width="420" height="420" controls>
@@ -36,7 +43,7 @@ being able to solve the program of that family-member, friend.
 The code just uses xpath expressions to find the id of the element I want to change.
 (xpath expressions)[https://en.wikipedia.org/wiki/XPath]
 
-And as a svg it's just text a file, editing it programmatically, it is easy.
+And as a svg it's just text a file, editing it prgonmmatically, it is easy.
 
 The code for generating the image:
 
@@ -53,7 +60,7 @@ root = tree.getroot()
 def find_element(id):
     xpath_expression = f".//*[@id='']"
     element = root.find(xpath_expression)
-    if element is not None:
+    If element is not None:
         return element
     else:
         return None
@@ -106,10 +113,9 @@ bot.infinity_polling()```
 
 Then it's hosted in my personal VPS along with other simple programs.
 
-Like this I have written multiple programs for close-friends, or family
+Like this, I have written multiple programs for close friends, or family
 members, they solve issues like saving them time or myself(doing these
-things for them), for things that are manually tedious, and a simple
-program would do the job, the "UI" for these kinds of programs that I do
-for them, are just a telegram bot, an email sent, sometimes they are
-a one-time program/script and maybe I might have to build a website
+things for them), for things that are manually tedious, and a simple program would do the job, the "UI" for these kinds of programs that I do
+For them, it's just a telegram bot, an email sent, sometimes they are
+a one-time program/script, and maybe I might have to build a website
 when needed.
