@@ -1,5 +1,5 @@
 ---
-title: Firefox is the best mobile browser
+title: "Firefox is the best mobile browser"
 Date: 2025-08-22
 draft: false
 ---
