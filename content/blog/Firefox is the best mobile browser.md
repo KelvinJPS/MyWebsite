@@ -48,7 +48,6 @@ There is the step by step tutorial with images
 
 ![Screenshot_20250803_122720_Firefox 1.jpg](./Attachments/images/Screenshot_20250803_122720_Firefox%201.jpg)
  
- ## [LibRedirect](https://addons.mozilla.org/en-US/firefox/addon/libredirect/) alternative frontents
 ## I hate the Medium UI 
 
 So when you open a medium article you get the following delightful UX
