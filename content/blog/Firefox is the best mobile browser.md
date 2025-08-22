@@ -102,7 +102,6 @@ It even let's you to choose from multiple archive sites
 
 ![Screenshot_20250803_180421_Firefox 3 1.jpg](./Attachments/images/Screenshot_20250803_180421_Firefox%203%201.jpg)
 
-
 ## Stop wasting time on the web 
 
 Are you wasting time on the web?  
