@@ -2,7 +2,6 @@
 title: Firefox is the best mobile browser
 Date: 2025-08-22
 draft: false
-share: true
 ---
 Currently, Firefox has features that no major browser has, like:
 ## Browser Extensions on mobile 
