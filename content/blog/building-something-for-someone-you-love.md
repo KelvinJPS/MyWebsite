@@ -2,7 +2,6 @@
 title="making scripts for family and friends"
 Date=2025-08-22
 draft=false
-share=true
 +++
 
 title= "Simple small scripts for family and friends"
