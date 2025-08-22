@@ -1,6 +1,6 @@
 +++
 title="Firefox is the best mobile browser"
-draft=true
+draft=false
 +++
 Currently, Firefox has features that no major browser has, like:
 ## Browser Extensions on mobile 
