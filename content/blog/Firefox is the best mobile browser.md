@@ -14,7 +14,7 @@ No, I don't want to download your **app**,
 _the website is fine_, Nor I want to talk with your AI chat. I'm not interested in receiving fake notifications either. And I might have subscribed to your newsletter if you didn't put a pop-up while I was midway through reading your article. 
 
 The following extensions have helped me in my fight against bloat and antipatterns on the web. Making my time on the web rather  a  pleasant experience
-If you just want the full list go here it is !
+If you just want the full list go here it is:
 
 ![[Screenshot_20250803_093117_Firefox.jpg]]
 
