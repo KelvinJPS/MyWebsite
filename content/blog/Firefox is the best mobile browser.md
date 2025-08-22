@@ -1,6 +1,6 @@
 ---
 title: Firefox is the best mobile browser
-Date: 2025-08-22
+date: 2025-08-22
 draft: false
 share: true
 ---
