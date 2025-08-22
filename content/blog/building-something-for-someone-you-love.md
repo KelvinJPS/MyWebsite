@@ -1,8 +1,16 @@
 ---
-title: "making scripts for family and friends"
-date: 2025-08-22
+title: Making scripts for family and friends
+Date: 2025-06-01
 draft: false
+share: true
 ---
+
+title= "Simple small scripts for family and friends"
+date= 2024-10-21
+draft= false 
+
+
+
 I just built a simple program for automating my mom's small business.,
 It is just a telegram bot that updates the following image, which is
 a SVG file.
