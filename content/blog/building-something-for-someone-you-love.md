@@ -1,7 +1,7 @@
 ---
-title:"making scripts for family and friends"
-date:2025-08-22
-draft:false
+title: "making scripts for family and friends"
+date :2025-08-22
+draft: false
 ---
 
 title= "Simple small scripts for family and friends"
