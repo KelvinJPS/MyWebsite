@@ -1,5 +1,5 @@
 +++
-title="Firefox is the best mobile browser""
+title="Firefox is the best mobile browser"
 draft=true
 +++
 Currently, Firefox has features that no major browser has, like:
