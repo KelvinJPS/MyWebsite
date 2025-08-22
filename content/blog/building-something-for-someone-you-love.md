@@ -3,6 +3,7 @@ title: Making scripts for family and friends
 Date: 2025-06-01
 draft: false
 share: true
+Updated:
 ---
 
 title= "Simple small scripts for family and friends"
