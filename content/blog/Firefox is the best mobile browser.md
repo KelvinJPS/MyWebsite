@@ -18,7 +18,7 @@ _the website is fine_, Nor I want to talk with your AI chat. I'm not interested 
 The following extensions have helped me in my fight against bloat and antipatterns on the web. Making my time on the web rather  a  pleasant experience
 If you just want the full list go here it is !
 
-![Screenshot_20250803_093117_Firefox.jpg](./Screenshot_20250803_093117_Firefox.jpg)
+![Screenshot_20250803_093117_Firefox.jpg]./Screenshot_20250803_093117_Firefox.jpg)
 
  I hate ads and banners
 
