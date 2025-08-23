@@ -1,6 +1,6 @@
 ---
 title: Making scripts for family and friends
-Date: 2025-06-01
+date: 2025-06-01
 draft: false
 share: true
 Updated:
