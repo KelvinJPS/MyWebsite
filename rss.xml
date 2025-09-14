@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://kelvinjps.com</link>
+    <description></description>
+    <generator>Zola</generator>
+    <language>en</language>
+    <atom:link href="https://kelvinjps.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Fri, 22 Aug 2025 00:00:00 +0000</lastBuildDate>
+    
+    <item>
+      <title>Firefox is the best mobile browser</title>
+      <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
+      <link>https://kelvinjps.com/blog/firefox-is-the-best-mobile-browser/</link>
+      <guid>https://kelvinjps.com/blog/firefox-is-the-best-mobile-browser/</guid>
+      <description>&lt;p&gt;Currently, Firefox has features that no major browser has, like:&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;browser-extensions-on-mobile&quot;&gt;Browser Extensions on mobile&lt;&#x2F;h2&gt;
+&lt;p&gt;Firefox is the only mainstream browser that supports extensions on mobile (Android ) and the reason I won&#x27;t get an !Phone.&lt;&#x2F;p&gt;
+&lt;p&gt;There are many extensions, that have improved my browsing experience dramatically, by helping me fight the &lt;strong&gt;bloat&lt;&#x2F;strong&gt; of modern web browsing. This is especially more important on mobile, where resources and screen space are more limited.&lt;&#x2F;p&gt;
+&lt;p&gt;The extension store is very similar to the desktop one. My browsing use case on my phone is to read articles, look up something quickly, buy things in online stores, or just see what people are saying online. When I do that, I don&#x27;t want to see ads, and I don&#x27;t want pop-ups taking up half of my screen.
+No, I don&#x27;t want to download your &lt;strong&gt;app&lt;&#x2F;strong&gt;,
+&lt;em&gt;the website is fine&lt;&#x2F;em&gt;, Nor I want to talk with your AI chat. I&#x27;m not interested in receiving fake notifications either. And I might have subscribed to your newsletter if you didn&#x27;t put a pop-up while I was midway through reading your article.&lt;&#x2F;p&gt;
+&lt;p&gt;The following extensions have helped me in my fight against bloat and antipatterns on the web. Making my time on the web rather  a  pleasant experience
+If you just want the full list go here it is !&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;Screenshot_20250803_093117_Firefox.jpg&quot; alt=&quot;Screenshot_20250803_093117_Firefox.jpg&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I hate ads and banners&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;ublock-origin&#x2F;&quot;&gt;Ublock&lt;&#x2F;a&gt;  is the best ad blocker. Besides blocking ads, it also blocks other annoyances such as mobile banners, like those super annoying ones where they tell you to download their app instead of letting you use their website&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Amazon your app sucks and I won&#x27;t use it&lt;&#x2F;strong&gt; ![Screenshot_20250803_121220_Firefox 1.jpg](&#x2F;Screenshot_20250803_121220_Firefox 1.jpg)&lt;&#x2F;p&gt;
+&lt;p&gt;Then, with the ublock enabled&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;Screenshot_20250816_182703_Firefox.jpg&quot; alt=&quot;Screenshot_20250816_182703_Firefox.jpg&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;ublock-filter-lists&quot;&gt;Ublock filter lists&lt;&#x2F;h3&gt;
+&lt;p&gt;Here it&#x27;s my the filter list that I use that not only removes those install the app for the  &lt;em&gt;best experience&lt;&#x2F;em&gt;. They also remove other annoyances like  chat widgets, newsletter notices, popups, cookie banners, etc.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;Screenshot_20250803_094456_Firefox.jpg&quot; alt=&quot;Screenshot_20250803_094456_Firefox.jpg&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;To activate it go to  the
+extensions menus.
+Press the  Ublock one and then press in
+&lt;strong&gt;Open the dashboard&lt;&#x2F;strong&gt;
+And the go to the filter lists tab.&lt;&#x2F;p&gt;
+&lt;p&gt;There is the step by step tutorial with images
+![Screenshot_20250803_122151_Firefox 1.jpg](&#x2F;Screenshot_20250803_122151_Firefox 1.jpg)&lt;&#x2F;p&gt;
+&lt;p&gt;![Screenshot_20250803_122155_Firefox 2 1.jpg](&#x2F;Screenshot_20250803_122155_Firefox 2 1.jpg)&lt;&#x2F;p&gt;
+&lt;p&gt;![Screenshot_20250803_122720_Firefox 1.jpg](&#x2F;Screenshot_20250803_122720_Firefox 1.jpg)&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;i-hate-the-medium-ui&quot;&gt;I hate the Medium UI&lt;&#x2F;h2&gt;
+&lt;p&gt;So when you open a medium article you get the following delightful UX&lt;&#x2F;p&gt;
+&lt;p&gt;A full screen pop-up to suscribe&lt;&#x2F;p&gt;
+&lt;p&gt;![Screenshot_20250803_123027_Firefox 1.jpg](&#x2F;Screenshot_20250803_123027_Firefox 1.jpg)&lt;&#x2F;p&gt;
+&lt;p&gt;And after you close it, they show you  bunch of annoying elements in the article&lt;&#x2F;p&gt;
+&lt;p&gt;![Screenshot_20250803_123031_Firefox 1 1 1 1.jpg](&#x2F;Screenshot_20250803_123031_Firefox 1 1 1 1.jpg)&lt;&#x2F;p&gt;
+&lt;p&gt;Compare that with the beautiful experience you get with the Scribe front-end.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;Screenshot_20250803_123740_Firefox.jpg&quot; alt=&quot;Screenshot_20250803_123740_Firefox.jpg&quot; &#x2F;&gt;
+The extension that makes this possible is called &lt;strong&gt;LibRedirect&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;x-i-want-to-see-the-comments&quot;&gt;X, I want to see the comments!&lt;&#x2F;h3&gt;
+&lt;p&gt;Twitter&#x2F;x. won&#x27;t let you to see the comments unless you create an account&lt;&#x2F;p&gt;
+&lt;p&gt;![Screenshot_20250803_174048_Firefox 1.jpg](&#x2F;Screenshot_20250803_174048_Firefox 1.jpg)
+If you tap in read replies button you&#x27;ll be presented with a log in screen&lt;&#x2F;p&gt;
+&lt;p&gt;Compare with the nitter frontent also using LibRedirect  where you can actually see &lt;strong&gt;comments&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;![Screenshot_20250803_174021_Firefox 1.jpg](&#x2F;Screenshot_20250803_174021_Firefox 1.jpg)&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;don-t-fuck-with-paste&quot;&gt;Don&#x27;t fuck with paste&lt;&#x2F;h2&gt;
+&lt;p&gt;This one is self-explanatory, but if you hate that some sites don&#x27;t let you paste as me, this is for you.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;don-t-fuck-with-paste&#x2F;?utm_source=addons.mozilla.org&amp;amp;utm_medium=referral&amp;amp;utm_content=search&quot;&gt;Don&#x27;t fuck with paste&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;can-i-just-listen-to-something-in-the-background&quot;&gt;Can I just listen to something in the background?&lt;&#x2F;h2&gt;
+&lt;p&gt;This extensions will allow you to fix issues in some sites where they don&#x27;t let you to play audio in the background&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;video-background-play-fix&#x2F;&quot;&gt;Video background play fix&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;![Screenshot_20250803_175928_Firefox 1.jpg](&#x2F;Screenshot_20250803_175928_Firefox 1.jpg)&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;404-not-found&quot;&gt;404 Not found&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;unnamed.png&quot; alt=&quot;unnamed.png&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;When this happens, you want to look up for a tool that let&#x27;s you to check for an archived version.
+Web archives let&#x27;s you to do exactly that&lt;&#x2F;p&gt;
+&lt;p&gt;It even let&#x27;s you to choose from multiple archive sites
+&lt;a href=&quot;https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;view-page-archive&#x2F;&quot;&gt;Web archives&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;![Screenshot_20250803_180421_Firefox 3 1.jpg](&#x2F;Screenshot_20250803_180421_Firefox 3 1.jpg)&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;stop-wasting-time-on-the-web&quot;&gt;Stop wasting time on the web&lt;&#x2F;h2&gt;
+&lt;p&gt;Are you wasting time on the web?&lt;br &#x2F;&gt;
+Install &lt;a href=&quot;https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;leechblock-ng&#x2F;&quot;&gt;Lechblock&lt;&#x2F;a&gt;
+You can block websites, set time limits and more with Lechblock&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;sync&quot;&gt;Sync&lt;&#x2F;h2&gt;
+&lt;p&gt;The other nice thing, about Firefox is that if you use Firefox on desktop, you can sync your data between your phone and your desktop easily.&lt;&#x2F;p&gt;
+&lt;p&gt;![Pasted image 20250816193149.png](&#x2F;Pasted image 20250816193149.png)
+You can see the tabs opened on your desktop&lt;&#x2F;p&gt;
+&lt;p&gt;![Pasted image 20250816193413.png](&#x2F;Pasted image 20250816193413.png)&lt;&#x2F;p&gt;
+&lt;p&gt;A useful feature is send to the  desktop Where yoYouan send tabs for checking them later  on your computer.&lt;&#x2F;p&gt;
+&lt;p&gt;![Pasted image 20250816193554.png](&#x2F;Pasted image 20250816193554.png)&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;customize-homepage&quot;&gt;customize homepage&lt;&#x2F;h2&gt;
+&lt;p&gt;you can customize the home page to only leave what you want. I for example remove sponsored shortcuts and stories.&lt;&#x2F;p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Making scripts for family and friends</title>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <link>https://kelvinjps.com/blog/building-something-for-someone-you-love/</link>
+      <guid>https://kelvinjps.com/blog/building-something-for-someone-you-love/</guid>
+      <description>&lt;p&gt;title= &quot;Simple small scripts for family and friends&quot;
+date= 2024-10-21
+draft= false&lt;&#x2F;p&gt;
+&lt;p&gt;I just built a simple program for automating my mom&#x27;s small business.,
+It is just a telegram bot that updates the following image, which is
+a SVG file.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;before-running-the-program&quot;&gt;Before running the program&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;input.svg&quot; alt=&quot;image before running the program&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;after-running-the-program&quot;&gt;after running the program&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;output.jpg&quot; alt=&quot;image after running the program&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Based on the fee inserted, it generates the example values in the
+2 currencies.&lt;&#x2F;p&gt;
+&lt;p&gt;This used to take 10-20 minutes each day, and now it is done automatically
+by the script in less than a second.&lt;&#x2F;p&gt;
+&lt;video width=&quot;420&quot; height=&quot;420&quot; controls&gt;
+  &lt;source src=&quot;&#x2F;telegram.mp4&quot; type=&quot;video&#x2F;mp4&quot;&gt;
+&lt;&#x2F;video&gt;
+&lt;p&gt;Being able to see the impact of your code, in a loved one, hits
+different than writing the most impressive piece of code, but with
+faceless users, that you will never meet.&lt;&#x2F;p&gt;
+&lt;p&gt;When I&#x27;m building these kind of programs, the only thing, I think, is
+being able to solve the program of that family-member, friend.&lt;&#x2F;p&gt;
+&lt;p&gt;The code just uses xpath expressions to find the id of the element I want to change.
+(xpath expressions)[https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;XPath]&lt;&#x2F;p&gt;
+&lt;p&gt;And as a svg it&#x27;s just text a file, editing it prgonmmatically, it is easy.&lt;&#x2F;p&gt;
+&lt;p&gt;The code for generating the image:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;python&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span&gt;xml.etree.ElementTree &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;as &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;ET
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;svg_file_path = &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;input.svg&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# Parse the SVG file
+&lt;&#x2F;span&gt;&lt;span&gt;tree = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;ET&lt;&#x2F;span&gt;&lt;span&gt;.parse
+&lt;&#x2F;span&gt;&lt;span&gt;root = tree.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;getroot&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;find_element&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span&gt;):
+&lt;&#x2F;span&gt;&lt;span&gt;    xpath_expression = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;f&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;.&#x2F;&#x2F;*[@id=&amp;#39;&amp;#39;]&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;    element = root.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;find&lt;&#x2F;span&gt;&lt;span&gt;(xpath_expression)
+&lt;&#x2F;span&gt;&lt;span&gt;    If element is not &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;None&lt;&#x2F;span&gt;&lt;span&gt;:
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span&gt;element
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;else&lt;&#x2F;span&gt;&lt;span&gt;:
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;None
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;generate_img&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;new_fee&lt;&#x2F;span&gt;&lt;span&gt;: str):
+&lt;&#x2F;span&gt;&lt;span&gt;    fee_id = (
+&lt;&#x2F;span&gt;&lt;span&gt;        &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;tspan171&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# this is the ID that was set on the SVG file, inspect the svg file
+&lt;&#x2F;span&gt;&lt;span&gt;    )
+&lt;&#x2F;span&gt;&lt;span&gt;    fee_element = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;find_element&lt;&#x2F;span&gt;&lt;span&gt;(fee_id)
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span&gt;fee_element is not &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;None&lt;&#x2F;span&gt;&lt;span&gt;:
+&lt;&#x2F;span&gt;&lt;span&gt;        fee_element.text = new_fee
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    new_fee = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;float&lt;&#x2F;span&gt;&lt;span&gt;(new_fee)
+&lt;&#x2F;span&gt;&lt;span&gt;    results = [
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;round&lt;&#x2F;span&gt;&lt;span&gt;(value &#x2F; new_fee) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;for &lt;&#x2F;span&gt;&lt;span&gt;value &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;range&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;10000&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;110000&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;10000&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;&#x2F;span&gt;&lt;span&gt;    ]  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# From 10.000 to 100.000
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# I set 0..10 the text of the bolivares values in the SVG file
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;for &lt;&#x2F;span&gt;&lt;span&gt;i &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;in &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;range&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;10&lt;&#x2F;span&gt;&lt;span&gt;):
+&lt;&#x2F;span&gt;&lt;span&gt;        bs_id = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span&gt;(i + &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;&#x2F;span&gt;&lt;span&gt;        bs_element = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;find_element&lt;&#x2F;span&gt;&lt;span&gt;(bs_id)
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span&gt;bs_element is not &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;None&lt;&#x2F;span&gt;&lt;span&gt;:
+&lt;&#x2F;span&gt;&lt;span&gt;            bs_element.text = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;str&lt;&#x2F;span&gt;&lt;span&gt;(results[i])
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    tree.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;write&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;output.svg&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;) ``` The code &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;for &lt;&#x2F;span&gt;&lt;span&gt;the telegram bot&lt;&#x2F;span&gt;&lt;span style=&quot;background-color:#bf616a;color:#2b303b;&quot;&gt;:&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;````python
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;#!&#x2F;usr&#x2F;bin&#x2F;env python3 import os import telebot from telebot.types import
+&lt;&#x2F;span&gt;&lt;span&gt;Message &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;import &lt;&#x2F;span&gt;&lt;span&gt;fee_img &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;BOT_TOKEN &lt;&#x2F;span&gt;&lt;span&gt;= os.environ.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;get&lt;&#x2F;span&gt;&lt;span&gt;(&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;BOT_TOKEN&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;) bot
+&lt;&#x2F;span&gt;&lt;span&gt;= telebot.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;TeleBot&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;BOT_TOKEN&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;&#x2F;span&gt;&lt;span&gt;@bot.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;message_handler&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;commands&lt;&#x2F;span&gt;&lt;span&gt;=[&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;start&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;,&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;hola&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;,&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;tasa&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;]) &lt;&#x2F;span&gt;&lt;span style=&quot;background-color:#bf616a;color:#2b303b;&quot;&gt;def&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;send_welcome&lt;&#x2F;span&gt;&lt;span&gt;(message): bot.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;reply_to&lt;&#x2F;span&gt;&lt;span&gt;(message, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;escribe la tasa, por&lt;&#x2F;span&gt;&lt;span style=&quot;background-color:#bf616a;color:#2b303b;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;        ejemplo &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;106.5&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;)&lt;&#x2F;span&gt;&lt;span style=&quot;background-color:#bf616a;color:#2b303b;&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;@bot.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;message_handler&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;func&lt;&#x2F;span&gt;&lt;span&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;lambda &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;msg&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;True&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;&#x2F;span&gt;&lt;span style=&quot;background-color:#bf616a;color:#2b303b;&quot;&gt;def&lt;&#x2F;span&gt;&lt;span&gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;send_message&lt;&#x2F;span&gt;&lt;span&gt;(message):
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;try&lt;&#x2F;span&gt;&lt;span&gt;:
+&lt;&#x2F;span&gt;&lt;span&gt;user_new_fee = message.text
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;except &lt;&#x2F;span&gt;&lt;span&gt;ValueError:
+&lt;&#x2F;span&gt;&lt;span&gt;bot.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;reply_to&lt;&#x2F;span&gt;&lt;span&gt;(message, &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;tasa no valida, escribe la tasa en numero separando decimales con .&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;)
+&lt;&#x2F;span&gt;&lt;span&gt;fee_img.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;generate_img&lt;&#x2F;span&gt;&lt;span&gt;(user_new_fee)
+&lt;&#x2F;span&gt;&lt;span&gt;os.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;system&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;convert output.svg output.png&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;)
+&lt;&#x2F;span&gt;&lt;span&gt;bot.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;send_photo&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;photo&lt;&#x2F;span&gt;&lt;span&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;open&lt;&#x2F;span&gt;&lt;span&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;output.png&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;,&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;rb&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;),&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;chat_id &lt;&#x2F;span&gt;&lt;span&gt;= message.chat.id)
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;bot.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;infinity_polling&lt;&#x2F;span&gt;&lt;span&gt;()```
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Then it&#x27;s hosted in my personal VPS along with other simple programs.&lt;&#x2F;p&gt;
+&lt;p&gt;Like this, I have written multiple programs for close friends, or family
+members, they solve issues like saving them time or myself(doing these
+things for them), for things that are manually tedious, and a simple program would do the job, the &quot;UI&quot; for these kinds of programs that I do
+For them, it&#x27;s just a telegram bot, an email sent, sometimes they are
+a one-time program&#x2F;script, and maybe I might have to build a website
+when needed.&lt;&#x2F;p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Update</title>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
+      <link>https://kelvinjps.com/blog/update/</link>
+      <guid>https://kelvinjps.com/blog/update/</guid>
+      <description>&lt;p&gt;I wrote my first post and then abandoned this site, a bunch of things
+happened, I changed my computer&#x27;s case, and procrastinated doing, got my
+dad to help me, and then had some vacations.&lt;&#x2F;p&gt;
+&lt;p&gt;Now I&#x27;m back I want to have as a goal to have a least one post weekly.&lt;&#x2F;p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why</title>
+      <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
+      <link>https://kelvinjps.com/blog/why/</link>
+      <guid>https://kelvinjps.com/blog/why/</guid>
+      <description>&lt;h2 id=&quot;the-purpose-of-this-website&quot;&gt;The purpose of this website&lt;&#x2F;h2&gt;
+&lt;p&gt;Sometimes, I feel like I have been wasting my time these last few years, the  time keeps passing
+but still I have nothing to show for, the reason of this website is that, I want it  to be a place where
+I can put the stuff I build and learn, so then in the future I&#x27;m able too look back and say yeah I did this, this what I have been investing my time.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;recap-of-my-last-projects&quot;&gt;Recap of my last projects.&lt;&#x2F;h2&gt;
+&lt;p&gt;OK it&#x27;s not like, I have completely wasted my time these last 3-4 years, I learned English (Still learning),
+Finished the &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;KelvinJPS&#x2F;CS50&quot;&gt;CS50&lt;&#x2F;a&gt; course, failed building an app &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;KelvinJPS&#x2F;FocusOne-Win-Desktop&quot;&gt;FocusOne&lt;&#x2F;a&gt;, previous version the now deprecated &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;KelvinJPS&#x2F;todolist-uwp&quot;&gt;UWP framework&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;It was a desktop app that, where the goal was to help the user focus for a period of time, by letting them to select the helpful apps for the task at hand and blocking everything else, my mistake was to try to build every single todo app feature of the competition, and the project became unmaintainable in terms of design I was not able to fit the other&#x27;s app design into mine, and coding every time I fixed a bug it made it impossible to me to add more features.&lt;&#x2F;p&gt;
+&lt;p&gt;then I did a bunch of toy projects, scripts, and did a bunch of solutions to
+coding problems for practice&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;the-plan-forward&quot;&gt;The plan forward&lt;&#x2F;h1&gt;
+&lt;p&gt;I want to start actually being able to finish more projects, and there is a lot of things that I want to learn,  The plan forward is to start being more detailed in what I want to do from the projects I built and use this website for accountability&lt;&#x2F;p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

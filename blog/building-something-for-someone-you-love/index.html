@@ -1,0 +1,64 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><title>MyBlog</title><link href=https://kelvinjps.com/styles.css rel=stylesheet><meta content="width=device-width,initial-scale=1.0" name=viewport><meta content="index, follow" name=robots><meta content="Kelvin's personal website interest sharing
+      projects around programming, language learning, and productivity. " name=description><meta content="programming, language learning, learning,
+      personal development, productivity" name=keywords><meta content="Kelvin Joel Pina Sledzinski" name=author><link title=" RSS Feed" href=https://kelvinjps.com/rss.xml rel=alternate type=application/rss+xml><meta content="Kelvin Joel Pina Sledzinski" name=author><link title=" RSS Feed" href=https://kelvinjps.com/rss.xml rel=alternate type=application/rss+xml><header><nav class=site-nav><a href=/>Home</a><a href=/blog>Blog</a><body><main><h1 class=title>Making scripts for family and friends</h1><main><article><p class=subtitle><strong>2025-06-01</strong><p>title= "Simple small scripts for family and friends" date= 2024-10-21 draft= false<p>I just built a simple program for automating my mom's small business., It is just a telegram bot that updates the following image, which is a SVG file.<h3 id=before-running-the-program>Before running the program</h3><p><img alt="image before running the program" src=/input.svg><h3 id=after-running-the-program>after running the program</h3><p><img alt="image after running the program" src=/output.jpg><p>Based on the fee inserted, it generates the example values in the 2 currencies.<p>This used to take 10-20 minutes each day, and now it is done automatically by the script in less than a second.</p><video controls height=420 width=420><source src=/telegram.mp4 type=video/mp4></video><p>Being able to see the impact of your code, in a loved one, hits different than writing the most impressive piece of code, but with faceless users, that you will never meet.<p>When I'm building these kind of programs, the only thing, I think, is being able to solve the program of that family-member, friend.<p>The code just uses xpath expressions to find the id of the element I want to change. (xpath expressions)[https://en.wikipedia.org/wiki/XPath]<p>And as a svg it's just text a file, editing it prgonmmatically, it is easy.<p>The code for generating the image:<pre class=language-python data-lang=python style=color:#c0c5ce;background-color:#2b303b><code class=language-python data-lang=python><span>
+</span><span style=color:#b48ead>import </span><span>xml.etree.ElementTree </span><span style=color:#b48ead>as </span><span style=color:#bf616a>ET
+</span><span>
+</span><span>svg_file_path = "</span><span style=color:#a3be8c>input.svg</span><span>"
+</span><span style=color:#65737e># Parse the SVG file
+</span><span>tree = </span><span style=color:#bf616a>ET</span><span>.parse
+</span><span>root = tree.</span><span style=color:#bf616a>getroot</span><span>()
+</span><span>
+</span><span>
+</span><span style=color:#b48ead>def </span><span style=color:#8fa1b3>find_element</span><span>(</span><span style=color:#bf616a>id</span><span>):
+</span><span>    xpath_expression = </span><span style=color:#b48ead>f</span><span>"</span><span style=color:#a3be8c>.//*[@id='']</span><span>"
+</span><span>    element = root.</span><span style=color:#bf616a>find</span><span>(xpath_expression)
+</span><span>    If element is not </span><span style=color:#d08770>None</span><span>:
+</span><span>        </span><span style=color:#b48ead>return </span><span>element
+</span><span>    </span><span style=color:#b48ead>else</span><span>:
+</span><span>        </span><span style=color:#b48ead>return </span><span style=color:#d08770>None
+</span><span>
+</span><span>
+</span><span style=color:#b48ead>def </span><span style=color:#8fa1b3>generate_img</span><span>(</span><span style=color:#bf616a>new_fee</span><span>: str):
+</span><span>    fee_id = (
+</span><span>        "</span><span style=color:#a3be8c>tspan171</span><span>"  </span><span style=color:#65737e># this is the ID that was set on the SVG file, inspect the svg file
+</span><span>    )
+</span><span>    fee_element = </span><span style=color:#bf616a>find_element</span><span>(fee_id)
+</span><span>    </span><span style=color:#b48ead>if </span><span>fee_element is not </span><span style=color:#d08770>None</span><span>:
+</span><span>        fee_element.text = new_fee
+</span><span>
+</span><span>    new_fee = </span><span style=color:#bf616a>float</span><span>(new_fee)
+</span><span>    results = [
+</span><span>        </span><span style=color:#96b5b4>round</span><span>(value / new_fee) </span><span style=color:#b48ead>for </span><span>value </span><span style=color:#b48ead>in </span><span style=color:#96b5b4>range</span><span>(</span><span style=color:#d08770>10000</span><span>, </span><span style=color:#d08770>110000</span><span>, </span><span style=color:#d08770>10000</span><span>)
+</span><span>    ]  </span><span style=color:#65737e># From 10.000 to 100.000
+</span><span>
+</span><span>    </span><span style=color:#65737e># I set 0..10 the text of the bolivares values in the SVG file
+</span><span>    </span><span style=color:#b48ead>for </span><span>i </span><span style=color:#b48ead>in </span><span style=color:#96b5b4>range</span><span>(</span><span style=color:#d08770>0</span><span>, </span><span style=color:#d08770>10</span><span>):
+</span><span>        bs_id = </span><span style=color:#bf616a>str</span><span>(i + </span><span style=color:#d08770>1</span><span>)
+</span><span>        bs_element = </span><span style=color:#bf616a>find_element</span><span>(bs_id)
+</span><span>        </span><span style=color:#b48ead>if </span><span>bs_element is not </span><span style=color:#d08770>None</span><span>:
+</span><span>            bs_element.text = </span><span style=color:#bf616a>str</span><span>(results[i])
+</span><span>
+</span><span>    tree.</span><span style=color:#bf616a>write</span><span>("</span><span style=color:#a3be8c>output.svg</span><span>") ``` The code </span><span style=color:#b48ead>for </span><span>the telegram bot</span><span style=color:#2b303b;background-color:#bf616a>:</span><span>
+</span><span>
+</span><span>
+</span><span>````python
+</span><span style=color:#65737e>#!/usr/bin/env python3 import os import telebot from telebot.types import
+</span><span>Message </span><span style=color:#b48ead>import </span><span>fee_img </span><span style=color:#bf616a>BOT_TOKEN </span><span>= os.environ.</span><span style=color:#bf616a>get</span><span>('</span><span style=color:#a3be8c>BOT_TOKEN</span><span>') bot
+</span><span>= telebot.</span><span style=color:#bf616a>TeleBot</span><span>(</span><span style=color:#bf616a>BOT_TOKEN</span><span>)
+</span><span>@bot.</span><span style=color:#bf616a>message_handler</span><span>(</span><span style=color:#bf616a>commands</span><span>=['</span><span style=color:#a3be8c>start</span><span>','</span><span style=color:#a3be8c>hola</span><span>','</span><span style=color:#a3be8c>tasa</span><span>']) </span><span style=color:#2b303b;background-color:#bf616a>def</span><span>
+</span><span>    </span><span style=color:#bf616a>send_welcome</span><span>(message): bot.</span><span style=color:#bf616a>reply_to</span><span>(message, "</span><span style=color:#a3be8c>escribe la tasa, por</span><span style=color:#2b303b;background-color:#bf616a>
+</span><span>        ejemplo </span><span style=color:#d08770>106.5</span><span>"</span><span style=color:#a3be8c>)</span><span style=color:#2b303b;background-color:#bf616a>
+</span><span>
+</span><span>@bot.</span><span style=color:#bf616a>message_handler</span><span>(</span><span style=color:#bf616a>func</span><span>=</span><span style=color:#b48ead>lambda </span><span style=color:#bf616a>msg</span><span>: </span><span style=color:#d08770>True</span><span>)
+</span><span style=color:#2b303b;background-color:#bf616a>def</span><span> </span><span style=color:#bf616a>send_message</span><span>(message):
+</span><span style=color:#b48ead>try</span><span>:
+</span><span>user_new_fee = message.text
+</span><span style=color:#b48ead>except </span><span>ValueError:
+</span><span>bot.</span><span style=color:#bf616a>reply_to</span><span>(message, "</span><span style=color:#a3be8c>tasa no valida, escribe la tasa en numero separando decimales con .</span><span>")
+</span><span>fee_img.</span><span style=color:#bf616a>generate_img</span><span>(user_new_fee)
+</span><span>os.</span><span style=color:#bf616a>system</span><span>("</span><span style=color:#a3be8c>convert output.svg output.png</span><span>")
+</span><span>bot.</span><span style=color:#bf616a>send_photo</span><span>(</span><span style=color:#bf616a>photo</span><span>=</span><span style=color:#96b5b4>open</span><span>("</span><span style=color:#a3be8c>output.png</span><span>","</span><span style=color:#a3be8c>rb</span><span>"),</span><span style=color:#bf616a>chat_id </span><span>= message.chat.id)
+</span><span>
+</span><span>bot.</span><span style=color:#bf616a>infinity_polling</span><span>()```
+</span><span>
+</span></code></pre><p>Then it's hosted in my personal VPS along with other simple programs.<p>Like this, I have written multiple programs for close friends, or family members, they solve issues like saving them time or myself(doing these things for them), for things that are manually tedious, and a simple program would do the job, the "UI" for these kinds of programs that I do For them, it's just a telegram bot, an email sent, sometimes they are a one-time program/script, and maybe I might have to build a website when needed.<main><footer><a title="RSS Feed" href=https://kelvinjps.com/rss.xml> <svg viewbox="0 0 24 24" height=40 role=img width=40 xmlns=http://www.w3.org/2000/svg><title>RSS Feed</title><path d="M3 3C12.9411 3 21 11.0589 21 21H18C18 12.7157 11.2843 6 3 6V3ZM3 10C9.07513 10 14 14.9249 14 21H11C11 16.5817 7.41828 13 3 13V10ZM3 17C5.20914 17 7 18.7909 7 21H3V17Z" fill=currentColor></path></svg> </a></footer>
